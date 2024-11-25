@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sawubona Mntomuhle, Happy Birthday Phela hawu !!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe6f3; /* Soft pink */
+            color: #333;
+        }
+        header, footer {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(to right, #ff9ecb, #d1a8ff); /* Pink to Purple */
+            color: white;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .photos img {
+            width: 30%;
+            margin: 0 10px;
+            border: 2px solid #ff9ecb;
+            border-radius: 50%;
+        }
+        .game {
+            text-align: center;
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            background: #ff9ecb;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #d186c1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Happy Birthday, Nasi!</h1>
+    </header>
+
+    <section id="message">
+        <h2>How Much You Mean to Me</h2>
+        <p>
+            [Write your heartfelt message here. Talk about how special she is, the joy she brings into your life, and how grateful you are for her.]
+        </p>
+    </section>
+
+    <section id="photos" class="photos">
+        <h2>My Favorite Photos of You</h2>
+        <div>
+            <img src="photo1.jpg" alt="Photo 1">
+            <img src="photo2.jpg" alt="Photo 2">
+            <img src="photo3.jpg" alt="Photo 3">
+        </div>
+    </section>
+
+    <section id="appreciation">
+        <h2>What I Appreciate About You</h2>
+        <p>
+            [Write about her qualities—kindness, humor, intelligence, etc.]
+        </p>
+    </section>
+
+    <section id="memory-game">
+        <h2>"Do You Remember?"</h2>
+        <p>Here’s a fun little game to see how well you remember our special moments.</p>
+        <div class="game">
+            <p>Question: Usakhumbula the day I sent you the dm?</p>
+            <button onclick="alert('Correct! You’re amazing.')">Correct Answer</button>
+            <button onclick="alert('Oops! Try again.')">Wrong Answer</button>
+        </div>
+    </section>
+
+    <section id="birthday-wish">
+        <h2>Happy Birthday!</h2>
+        <p>
+            I hope this day is as wonderful as you are. You deserve all the love and happiness in the world. ❤️
+        </p>
+    </section>
+
+    <footer>
+        Made with ❤️ by Ikhekhe lakho la shizi, uLungile
+    </footer>
+</body>
+</html>
